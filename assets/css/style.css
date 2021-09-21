@@ -1812,6 +1812,7 @@ div.form-check.primary {
     margin: 0 5px;
     color: #7252d3;
     opacity: 1;
+    font-size: 12px;
 }
 .card.notificationbox .card-header {
     padding: 5px 15px 5px 15px;

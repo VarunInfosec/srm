@@ -3443,6 +3443,11 @@ hr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.13);
 }
 
+.highcharts-menu hr {
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+}
+
 address {
     font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI",
         "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
@@ -3873,7 +3878,7 @@ kbd {
     color: #4b4b4b;
     box-shadow: 0 1px 2px 0 rgba(33, 33, 33, 0.14),
         0 0 1px 0 rgba(0, 0, 0, 0.14);
-    max-width: 1150px;
+    /* max-width: 1150px; */
 }
 
 .bg-transparent {
@@ -19518,7 +19523,7 @@ Main components
         width: 570px;
     }
     .container-fluid.container-fixed-lg {
-        width: 1700px;
+        /* width: 1700px; */
         margin-right: auto;
         margin-left: auto;
     }
